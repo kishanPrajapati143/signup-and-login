@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user Login</title>
+</head>
+<body bgcolor="gray">
+    <center>
+    <h1 style="color:red">User login</h1>
+    <form action="http://localhost:5000/api/auth/signup" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required/>
+            <br><br>
+            <input type="email" name="email" placeholder="Enter user email" required/>
+            <br><br>
+            <input type="password" name="password" placeholder="Enter user password" required/>
+            <br><br>
+            <input type="submit" value="Signup">
+            <br><br>
+            <!-- <button><a href="userlogin.html" style="color:red">Admin login</a></button>
+            &nbsp; &nbsp; &nbsp; &nbsp; -->
+            <button><a href="login.html" style="color:red">Login</a></button>
+        </center>
+    </form>
+</body>
+</html>
