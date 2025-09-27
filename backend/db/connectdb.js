@@ -12,4 +12,3 @@ const connectDB = async () => {
 
 export default connectDB;
 
-//mongodb+srv://kishanprajapati:<db_password>@cluster0.btvgumj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
